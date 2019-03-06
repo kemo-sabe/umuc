@@ -13307,8 +13307,8 @@ require(
       waitSeconds: 15
     },
     [
-      "reveal.js/lib/js/head.min.js",
-      "reveal.js/js/reveal.js"
+      "https://github.com/kemo-sabe/reveal.js/blob/master/lib/js/head.min.js",
+      "https://github.com/kemo-sabe/reveal.js/blob/master/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -13323,9 +13323,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "reveal.js/lib/js/classList.js",
+                { src: "https://github.com/kemo-sabe/reveal.js/blob/master/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "reveal.js/plugin/notes/notes.js",
+                { src: "https://github.com/kemo-sabe/reveal.js/blob/master/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
